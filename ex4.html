@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exercício 4</title>
+
+</head>
+
+<body>
+
+    <h1>adivinhação</h1>
+
+    <div id="adiv"></div>
+
+	
+
+    <script>
+	let n1 = Number(prompt("Escolha um numero de 1 a 10"));
+	let n2=0
+	let i=0
+	if (n1 > 0 && n1 <11) {
+	while (n1 != n2) {
+	n2 = Number(prompt("Adivinhe um numero entre 1 a 10")) 
+	i++
+	}
+	}
+	else
+	document.getElementById("adiv").innerHTML = "Você acertou o número do outro jogador: " + n1 + " em: " + 1 + "vezes";  
+document.getElementById("adiv").innerHTML = "Você acertou o número do outro jogador: " + n1 + " em: " + 1 + "vezes";  		
+
+    </script>
+
+</body>
+
+</html>
